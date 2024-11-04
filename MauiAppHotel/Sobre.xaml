@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+            <GradientStop Color="Blue" Offset="0.0"/>
+            <GradientStop Color="Purple" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="Center"
+                         Padding="10"
+                         Spacing="10">
+
+        <!-- Título -->
+        <Label Text="SOBRE:"
+               FontSize="Title"
+               TextColor="Yellow" 
+               HorizontalOptions="Center"
+               FontFamily="Kalam"
+               FontAttributes="Bold"/>
+
+        <!-- Informações do Criador -->
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="CRIADO POR: "
+                          TextColor="White"
+                          FontFamily="Kalam"
+                          FontAttributes="Bold"
+                          FontSize="24" />
+                    
+                    <Span Text="Pedro Henrique"
+                          TextColor="Yellow"
+                          FontSize="24" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="2024" 
+                          TextColor="White"
+                          FontSize="26"
+                          FontFamily="Kalam"
+                          FontAttributes="Bold" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+    </VerticalStackLayout>
+</ContentPage>
