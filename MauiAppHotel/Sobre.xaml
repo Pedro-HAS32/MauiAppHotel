@@ -11,6 +11,7 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
+    
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          HorizontalOptions="Center"
                          Padding="10"
@@ -52,6 +53,11 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        
+
+        <Button
+            Text="Voltar"
+            x:Name="btn_voltar"
+            Clicked="btn_voltar_Clicked"
+            />
     </VerticalStackLayout>
 </ContentPage>
