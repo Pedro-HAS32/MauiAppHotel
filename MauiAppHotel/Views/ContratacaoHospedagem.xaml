@@ -71,8 +71,7 @@
                        />
                 
                 <!--Picker para escolher uma data-->
-                <!--O "ItemDisplayBinding="{Binding Descricao}"" diz para o programa mostrar as descrições dos itens definidos no arquivo App.xaml.cs -->
-                <Picker x:Name="pck_quarto"
+                        <Picker x:Name="pck_quarto"
                         Title="Selecione sua Acomodação"
                         ItemDisplayBinding="{Binding Descricao}"
                         />
