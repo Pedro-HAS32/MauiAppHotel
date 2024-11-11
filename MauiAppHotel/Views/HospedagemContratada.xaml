@@ -6,15 +6,13 @@
              BackgroundColor="{StaticResource Gray100}"
              >
 
-    <!--Adicionado para manter a consistencia com a cor da página inicial!-->
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
             <GradientStop Color="Blue" Offset="0.0"/>
             <GradientStop Color="Purple" Offset="1.0"/>
         </LinearGradientBrush>
     </ContentPage.Background>
-    <!--*******************************************************************-->
-    
+        
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
