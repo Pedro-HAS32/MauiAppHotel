@@ -8,13 +8,10 @@ public partial class ContratacaoHospedagem : ContentPage
 	{
 		InitializeComponent();
 
-        //Descobrir o que o código abaixo faz
         PropriedadesApp = (App)Application.Current;
 
-        //pck_quarto é o nome dado ao picker de data no ContratacaoHospedam.xaml
         pck_quarto.ItemsSource = PropriedadesApp.lista_quartos;
 
-        //Define uma data minima e uma data máxima para ser escolhida
         dtpck_checkin.MinimumDate = DateTime.Now;
         dtpck_checkin.MaximumDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month + 1, DateTime.Now.Day);
 
@@ -28,11 +25,7 @@ public partial class ContratacaoHospedagem : ContentPage
 		App.Current.MainPage = new Sobre();
     }
 
-    // |-----------------> Anotar! <-----------------|
-    // |Fazer nota sobre o funcionamento do Try/Catch|
-    // |---------------------------------------------|
-
-    //Troca de tela com animação
+    //Troca de tela com animaÃ§Ã£o
     private void Button_Clicked(object sender, EventArgs e)
     {
         try
