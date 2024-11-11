@@ -76,9 +76,12 @@
                        FontAttributes="Bold"
                        FontSize="20"
                        />
-
+                
+                <!--Picker para escolher uma data-->
+                <!--O "ItemDisplayBinding="{Binding Descricao}"" diz para o programa mostrar as descrições dos itens definidos no arquivo App.xaml.cs -->
                 <Picker x:Name="pck_quarto"
                         Title="Selecione sua Acomodação"
+                        ItemDisplayBinding="{Binding Descricao}"
                         />
 
                 <!--Código para o período de estadia-->
@@ -90,6 +93,7 @@
                         <HorizontalStackLayout>
                             <Label Text="Check-in: " />
                             <DatePicker x:Name="dtpck_checkin"
+                                        DateSelected="dtpck_checkin_DateSelected"
                                         Format="dd/mm/yyyy"/>
                         </HorizontalStackLayout>
 
@@ -104,7 +108,7 @@
                 </Frame>
 
                 <!--Botão para avançar-->
-                <Button Text="Avançar" />
+                <Button Text="Avançar" Clicked="Button_Clicked" />
 
             </VerticalStackLayout>
         </Frame>
