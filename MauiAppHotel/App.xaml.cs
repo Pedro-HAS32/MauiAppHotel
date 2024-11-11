@@ -4,9 +4,6 @@ namespace MauiAppHotel
 {
     public partial class App : Application
     {
-        //O <Quarto> significa que o código está usando o modelo criado na pasta "Models".
-        //O código na primeira linha diz para o aplicativo usar o modelo "Quarto" dentro da pasta models
-        //O código abaixo cria uma nova lista chamada "lista_quartos" que usa o modelo <Quarto>.
         public List<Quarto> lista_quartos = new List<Quarto>
         {
             new Quarto()
