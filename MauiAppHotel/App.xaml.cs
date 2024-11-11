@@ -40,7 +40,7 @@ namespace MauiAppHotel
             MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
         }
 
-        protected override Window CreateWindow(IActivationState? activationState) //O "?" no "IActivationState" Indica que o valor pode ser nulo!
+        protected override Window CreateWindow(IActivationState? activationState) 
         {
             var window = base.CreateWindow(activationState);
 
