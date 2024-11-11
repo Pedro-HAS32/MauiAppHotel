@@ -23,14 +23,7 @@
             FontSize="50"
             TextColor="{StaticResource Secondary}"
             />
-
-        <!--NOTAS DAS GRADES-->
-        <!--Aqui é onde está programado o quadro que fica abaixo do título da página-->
-        <!--Código está usando grades para posicionar as labels, a quantidade de pessoas e os stepers para adicionar mais pessoas ao contador-->
-        <!--O Stepper são os botões de - é + na interface de usuário, eles servem para adicionar ou dimiuir o valor do stp_adultos-->
-        <!--O "BindindContext" serve para "amarrar" os conteúdos das Labels com o Stepper-->
-        <!--No Segundo e terceiro Label, o "Binding Value" na parte de texto pega o valor do stepper "x:Name="stp_adultos" e "x:Name="stp_criancas", e usa como texto-->
-
+        
         <Frame>
             <VerticalStackLayout>
                 <Grid RowDefinitions="Auto, Auto"
