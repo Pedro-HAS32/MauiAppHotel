@@ -18,7 +18,7 @@
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
-        <Label Text="Suite Super Lixo"
+        <Label Text="Suite Super Luxo"
                TextColor="White"
                FontFamily="Kalam"
                FontSize="40"
